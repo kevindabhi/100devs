@@ -1,0 +1,96 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.hero{
+    width: 95%;
+    margin: 0 auto;
+    
+   }
+
+  .headerclass{
+      min-width: 100%;
+      justify-content: space-between;
+  }
+
+.row{
+    display: flex;
+}
+
+header
+{
+    display: flex;
+    border: solid 2px red;
+    
+    
+    flex-wrap: wrap;
+    width: 100%;
+    
+}
+
+
+li{
+    list-style-type: none;
+    min-width: 0;
+}
+
+ul{
+    gap :1.25rem;
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+nav{
+    min-width: 0;
+    flex-wrap: wrap;
+}
+
+.welcome{
+    justify-content: space-between;
+}
+
+.container, .top-left
+{
+    border: 2px orange solid;
+    min-width: 50%;
+    gap: 1em;
+}
+
+.top-left{
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.top-right{
+    border: 2px blue solid;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+
+
+article{
+    border: 1px blueviolet dotted;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.right{
+    display: flex;
+   
+}
+
+
+.twentyfive{
+    width: 50%;
+}
+
+.bottom
+{
+    min-width: 33.33%;
+    gap :1em;
+}
