@@ -1,0 +1,31 @@
+
+*{
+    box-sizing: border-box;
+}
+p, span, h1 {
+    border: 2px black solid;
+}
+p{
+    padding-top: 50px;
+}
+
+span {
+
+    display: inline-block;
+  
+   
+
+}
+
+h1{
+    margin-top: 50px;
+}
+
+.first {
+    justify-content: center;
+    text-align: center;
+    display: block;
+    background: red;
+    border-radius: 50%;
+    height: 60px;
+}
