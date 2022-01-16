@@ -6,12 +6,21 @@
     width: 95%;
     margin: 0 auto;
     
+    
    }
 
   .headerclass{
-      min-width: 100%;
-      justify-content: space-between;
+      
+    justify-content: space-between;
+    min-width: 100%;
+    background: black;
+    color: white;
     
+    
+  }
+
+  .headerclass a {
+      color: white;
   }
 
 .row{
@@ -22,8 +31,6 @@ header
 {
     display: flex;
     border: solid 2px red;
-    
-    
     flex-wrap: wrap;
     width: 100%;
     
@@ -31,16 +38,16 @@ header
 }
 
 
-li{
+/* li{
     list-style-type: none;
     min-width: 0;
-}
+} */
 
-ul{
+/* ul{
     gap :1.25rem;
     min-width: 0;
     flex-wrap: wrap;
-}
+} */
 
 nav{
     min-width: 0;
@@ -98,7 +105,9 @@ article{
     gap :1em;
 }
 
-
+.imageback{
+    position: relative;
+}
 .text1
 {
     position: absolute;
@@ -106,8 +115,8 @@ article{
 }
 img {
     
-    min-width: 100%;
-    min-height: 100%
+    max-width: 100%;
+    max-height: 100%
 }
 
 .th1{
@@ -129,3 +138,26 @@ img {
     margin-bottom: 1rem;
     color: white;
 }
+
+#BBC-title{
+   
+    color: red;
+}
+
+.ul2{
+
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: black;
+    color: white;
+}
+
+li{
+    list-style: none;
+}
+a { color: white; }
+
+
+.bottom article {
+max-width: 33%;
+    }
