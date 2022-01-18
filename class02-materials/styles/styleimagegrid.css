@@ -1,0 +1,19 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+row
+{
+    display: flex;
+}
+.container {
+    border: 2px blue solid;
+}
+
+img{
+  position: relative;
+}
+
+h2, h4{
+    position: absolute;
+}
