@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+
+header, footer{
+    border: 2px black solid;
+    height: 100px;
+    clear: both;
+}
+
+.thirty{ border: 2px black solid;
+    height: 200px;
+    width: 30%;
+    float: left;
+
+}
+
+.seventy{ border: 2px black solid;
+    height: 200px;
+    width: 70%;
+    float: left;
+
+}
+
+.full{
+    height: 150px;
+    border: 2px solid black;
+    clear: both;
+}
+
