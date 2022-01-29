@@ -1,4 +1,6 @@
 
+/* This is CSS reset that I use, the actual CSS for the page begins below this.*/
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -54,8 +56,10 @@ table {
 
 
 
+/* The actual styling begins here. */
 
 
+/* This is the container, I did not want the web page to be taking very wide space so I limited it to 900px. The reason I used Max-width is because if it is anything smaller then there is no issues, if it was width 900 then the css would try to keep the width at 900px all the time, this would cause issues. */
 
 .container
 {
@@ -65,6 +69,8 @@ table {
     padding: 20px;
     color: white;
 }
+
+/* I am using rem for some and px for others, I usually try and use rem because they are scaleable and relative size instead of fixed like pixel. */
 
 img{
    
@@ -137,6 +143,12 @@ p{
     font-size: 1.5rem;
 }
 
+
+
+
+/* The Resonsiveness begins here. I experimented a little and found at which size does the responsiveness seem more fluid. For me it was 500px*/
+
+
 @media screen and (max-width: 500px) 
 {
 
@@ -149,17 +161,18 @@ img{
     display: block;
     float: none;
     margin: 0 auto;
-   
-    text-align:center;
+    text-align:center; /* This is an image but still the text align property work, I don't know why I just know it works lol.*/
     
 }
 h2{
     text-align: center;
+    /*This is to center the "About us"*/
 
 }
 
 header{
     margin-bottom: 10px;
+    /* When I centered "about us" there was not much space between that and element above so I put a bit of margin on the header element to create some space*/
 }
 
 }
