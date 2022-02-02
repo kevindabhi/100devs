@@ -40,3 +40,25 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+header, footer{
+  border: solid 2px black;
+  height: 100px;
+  clear: both;
+}
+
+.section{
+  border: 2px solid black;
+  height: 200px;
+  width: 20%;
+  float: left;
+}
+
+.big
+{
+  float: left;
+height: 200px;
+width: 40%;
+border: black solid 2px;
+}
