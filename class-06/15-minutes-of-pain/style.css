@@ -450,13 +450,13 @@ header, section, footer{
 {
   section{ 
     background: orange;
+     
   }
-
 
   header,footer{
     height: 50px;
 }
-}
+  }
 
 
 
