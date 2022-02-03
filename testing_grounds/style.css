@@ -1,0 +1,98 @@
+@keyframes bounce {
+    0% {
+      transform: translateY(0%);
+    }
+    10% {
+      transform: translateY(170px);
+    }
+    20% {
+      transform: translateY(59px);
+    }
+    30% {
+      transform: translateY(170px);
+    }
+    40% {
+      transform: translateY(109px);
+    }
+    50% {
+      transform: translateY(170px);
+    }
+    60% {
+      transform: translateY(136px);
+    }
+    70% {
+      transform: translateY(170px);
+    }
+    80% {
+      transform: translateY(156px);
+    }
+    100% {
+      transform: translateY(170px);
+    }
+  }
+  div{
+    background: greenyellow;
+    border-right: solid 5px black;
+    border-left: solid 5px purple;
+    border-top: solid 5px red;
+    border-bottom: solid 5px blue;
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    margin: 100px 50px;
+    overflow: auto;
+  }
+  .turn {
+    transition: all 1s;
+  }
+  
+  .turn:hover {
+    transform: rotate(0.25turn);
+    transition: all 1s;
+  }
+  
+  .tilt {
+    transition: all 1s;
+  }
+  .tilt:hover {
+    transform: rotate(25deg);
+    transition: all 1s;
+  }
+  .circle {
+    transition: all 1s;
+  }
+  .circle:hover {
+    border-radius: 50%;
+    transform: scale(1.5);
+    transition: all 1s;
+  }
+  .bounce-container {
+    display: inline-flex;
+    justify-content: center;
+    align-items: top;
+  }
+  .bounce-ball {
+    background: orange;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin: 0;
+    transition: all 1s;
+  }
+  .bounce-container > .bounce-ball {
+    transition: all 1s;
+  }
+  .bounce-container:hover > .bounce-ball {
+    animation-name: bounce;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+  }
+  
+
+
+  .container{
+      display: flex;
+      flex-wrap: wrap;
+  }
