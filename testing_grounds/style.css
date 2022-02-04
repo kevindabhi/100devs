@@ -21,166 +21,60 @@
 /* BASE STYLES
 /*******************************************/
 
-/*body {
-width: auto;
-}*/
-
-html {
+body {
   font-size: 20px;
-  font-family: 'Times New Roman', Times, serif;
-  margin: .7rem;
+
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-main {
-  width: 100%;
+
+
+header{
+  border: 2px solid red;
 }
 
-header nav{
+header nav > *{
   float: left;
-  width: 10%;
-  height: 100%;
-}
-
-article {
-  float: left;
-  width: 50%;
-  padding-right: 2rem;
-}
-
-aside {
-  float: left;
-  width: 40%;
-  padding-left: 2rem;
-}
-
-input {
-  width: 90%;
-}
-
-
-
-section li {
-  float: left;
-
-}
-
-li {
   list-style: none;
 }
 
-.wonder {
-  width: 30%;
-  margin: 0 1rem;
-}
 
-.wonderpara {
-  width: 25%;
-  margin: 0 1rem;
- 
-}
-
-.wonderimage {
-  width: 25%;
-  margin: 0 1rem;
-
-}
-
-
-
-.bottom {
-  margin-left: 7rem;
-}
-
-/*images*/
-
-.girloncomp {
-  height: 300px;
-  /*width: 500px;*/
-  display: block;
-  margin: 0 auto;
+input {
   width: 100%;
-}
-
-.tclogo {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  padding-right: 10px; /*trying to get image to left*/
-
-.wonderpic {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-}
-
-}
-
-/*nav bar*/
-
-.logoupper {
-  padding: .2rem 0;
-}
-
-nav ul li {
-  padding: .3rem 0;
 }
 
 a {
   text-decoration: none;
-  color: rgb(66, 64, 64);
-  font-size: .8rem;
+  color: rgb(28, 92, 85)
 }
 
-/*top middle column*/
-h1 {
-  font-size: 1.7rem;
-  font-weight: 800;
-  text-align: justify;
+.larger {
+  float: right;
 }
-
-p {
-  font-size: .75rem;
-  text-align: justify;
-}
-
-.logomove {
-  color: rgb(209, 68, 16);
+.larger li{
+  float: left;
 }
 
 
-/*far right column style*/
+img {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
 
+} 
 
-h2 {
-  font-weight: bold;
-  font-size: 1.4rem;
+.khangirl {
+  float: left;
+  width: 200px;
+  height:300px;
+
 }
 
-span {
-  font-size:.7rem;
-}
-
-/*wonder woman left*/
-
-.moveup {
-  margin: 5px 0;
-}
-
-
-
-
-
-
-
+ */
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-nav {
-
-}
