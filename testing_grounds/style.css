@@ -1,98 +1,186 @@
-@keyframes bounce {
-    0% {
-      transform: translateY(0%);
-    }
-    10% {
-      transform: translateY(170px);
-    }
-    20% {
-      transform: translateY(59px);
-    }
-    30% {
-      transform: translateY(170px);
-    }
-    40% {
-      transform: translateY(109px);
-    }
-    50% {
-      transform: translateY(170px);
-    }
-    60% {
-      transform: translateY(136px);
-    }
-    70% {
-      transform: translateY(170px);
-    }
-    80% {
-      transform: translateY(156px);
-    }
-    100% {
-      transform: translateY(170px);
-    }
-  }
-  div{
-    background: greenyellow;
-    border-right: solid 5px black;
-    border-left: solid 5px purple;
-    border-top: solid 5px red;
-    border-bottom: solid 5px blue;
-    height: 200px;
-    width: 200px;
-    display: inline-block;
-    margin: 100px 50px;
-    overflow: auto;
-  }
-  .turn {
-    transition: all 1s;
-  }
-  
-  .turn:hover {
-    transform: rotate(0.25turn);
-    transition: all 1s;
-  }
-  
-  .tilt {
-    transition: all 1s;
-  }
-  .tilt:hover {
-    transform: rotate(25deg);
-    transition: all 1s;
-  }
-  .circle {
-    transition: all 1s;
-  }
-  .circle:hover {
-    border-radius: 50%;
-    transform: scale(1.5);
-    transition: all 1s;
-  }
-  .bounce-container {
-    display: inline-flex;
-    justify-content: center;
-    align-items: top;
-  }
-  .bounce-ball {
-    background: orange;
-    border-radius: 50%;
-    width: 20px;
-    height: 20px;
-    margin: 0;
-    transition: all 1s;
-  }
-  .bounce-container > .bounce-ball {
-    transition: all 1s;
-  }
-  .bounce-container:hover > .bounce-ball {
-    animation-name: bounce;
-    animation-duration: 4s;
-    animation-iteration-count: 1;
-    animation-timing-function: ease-in-out;
-    animation-fill-mode: forwards;
-  }
-  
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+ clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/*body {
+width: auto;
+}*/
+
+html {
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  margin: .7rem;
+}
 
 
-  .container{
-      display: flex;
-      flex-wrap: wrap;
-  }
+/******************************************
+/* LAYOUT
+/*******************************************/
+main {
+  width: 100%;
+}
+
+header nav{
+  float: left;
+  width: 10%;
+  height: 100%;
+}
+
+article {
+  float: left;
+  width: 50%;
+  padding-right: 2rem;
+}
+
+aside {
+  float: left;
+  width: 40%;
+  padding-left: 2rem;
+}
+
+input {
+  width: 90%;
+}
+
+
+
+section li {
+  float: left;
+
+}
+
+li {
+  list-style: none;
+}
+
+.wonder {
+  width: 30%;
+  margin: 0 1rem;
+}
+
+.wonderpara {
+  width: 25%;
+  margin: 0 1rem;
+ 
+}
+
+.wonderimage {
+  width: 25%;
+  margin: 0 1rem;
+
+}
+
+
+
+.bottom {
+  margin-left: 7rem;
+}
+
+/*images*/
+
+.girloncomp {
+  height: 300px;
+  /*width: 500px;*/
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.tclogo {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  padding-right: 10px; /*trying to get image to left*/
+
+.wonderpic {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+}
+
+/*nav bar*/
+
+.logoupper {
+  padding: .2rem 0;
+}
+
+nav ul li {
+  padding: .3rem 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(66, 64, 64);
+  font-size: .8rem;
+}
+
+/*top middle column*/
+h1 {
+  font-size: 1.7rem;
+  font-weight: 800;
+  text-align: justify;
+}
+
+p {
+  font-size: .75rem;
+  text-align: justify;
+}
+
+.logomove {
+  color: rgb(209, 68, 16);
+}
+
+
+/*far right column style*/
+
+
+h2 {
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+span {
+  font-size:.7rem;
+}
+
+/*wonder woman left*/
+
+.moveup {
+  margin: 5px 0;
+}
+
+
+
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+nav {
+
+}
