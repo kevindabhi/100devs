@@ -30,15 +30,19 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
-
-header{
-  border: 2px solid red;
+.larger {
+  width: 20%; /*this took forever had to inspect to see UL wasnt wide enough*/
 }
-
 header nav > *{
   float: left;
+  width: 10%;
+  margin: 0 5%;
   list-style: none;
+}
+
+header nav  li {
+  float: left;
+  width: 30%;
 }
 
 
@@ -51,20 +55,13 @@ a {
   color: rgb(28, 92, 85)
 }
 
-.larger {
-  float: right;
-}
-.larger li{
-  float: left;
-}
-
 
 img {
   display: inline-block;
   width: 100%;
   border: 1px solid black;
 
-} 
+}
 
 .khangirl {
   float: left;
@@ -73,7 +70,90 @@ img {
 
 }
 
- */
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+ clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  font-size: 20px;
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+.larger {
+  width: 20%; /*this took forever had to inspect to see UL wasnt wide enough*/
+}
+header nav > *{
+  float: left;
+  width: 10%;
+  margin: 0 5%;
+  list-style: none;
+}
+
+header nav  li {
+  float: left;
+  width: 30%;
+}
+
+input {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(28, 92, 85)
+}
+
+header {
+  height: 20vh;
+}
+
+
+img {
+  display: inline-block;
+  width: 100%;
+  border: 1px solid black;
+
+}
+
+main {
+  float: left;
+}
+.khangirl {
+  /*float: left;*/
+  width: 400px;
+  height:500px;
+  /*margin-left: 10rem;*/
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
