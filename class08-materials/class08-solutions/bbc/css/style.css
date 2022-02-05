@@ -17,10 +17,205 @@
 	clear: both;
 }
 
-header{
-  border: 2px solid red;
+
+ * {
+   font-family: "lato" , sans-serif;
+ }
+
+
+
+
+
+
+
+
+
+header {
+  background-color: black;
+  font-weight: 700;
+  font-size: 16px;
+ 
+  
+}
+
+header a {
+  
+  text-decoration: none;
+  color: white;
+ 
+
+}
+
+
+
+.bbc-logo {
+  height: 100%;
+}
+
+ul a {
+  padding-left: 15px;
+  display: block;
+
+}
+
+nav img{
+  
+  max-height: 40px;
+  float:left;
+  
+  
 }
 
 li{
+  float:left;
+  border-left: solid white 1px;
+  margin-left: 20px;
+  padding: 10px 0; 
+  
+ }
+
+
+.sign-in {
+  padding-right:30px;
+}
+
+.search {
+  padding-left: 20px;
+}
+
+
+
+
+
+
+.bottom{
+  padding-top: 20px;
+}
+
+.ns{
+  padding-left: 5px;
+}
+
+
+/* Main */
+.welcome{float: left;}
+
+.title .date
+{
+  float: right;
+}
+
+
+
+
+.title >*{
   float: left;
+}
+
+
+.main >*
+{
+  float: left;
+}
+
+
+
+.left, .right{
+  height: 360px;
+  width: 49%;
+}
+
+.main img{
+  height: 100%;
+  width: 100%;
+}
+.left{
+  float: left;
+
+ position: relative;
+    
+}
+
+.t2
+{
+  
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+   
+  
+}
+
+
+.right >*
+{
+
+ float: left;
+ 
+}
+
+.right{
+ 
+  float: right;
+  width: 50%;
+}
+
+.right-left{
+  float: left;
+  width: 49%;
+}
+
+.right-right{
+  float:right;
+  width: 49%;
+}
+
+
+.bottom .articles >* {
+  float: left;
+
+}
+.b-one , .b-two, .b-three{
+  float: left;
+ 
+  width: 33.3333%;
+}
+
+.b-two, .b-three{
+  
+  padding-left: 10px;
+  }
+  
+
+
+.articles img{
+  width: 100%;
+
+}
+
+.one, .two, .three, .four{
+  position: relative;
+}
+
+.t1
+{
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  font-size: 10px;
+}
+
+
+.ns{
+  display: block;
+  margin-top: 20px;
+  border-left: brown solid 5px;
+}
+
+.bottom a{
+  text-decoration: none;
+ color: black;
+ 
 }

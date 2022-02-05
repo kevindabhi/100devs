@@ -7,22 +7,25 @@
 	  
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
-		<title>Blank Template</title>
+		<title>Welcome to BBC</title>
 
 		<!-- external CSS link -->
 		
 		<!-- <link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/normalize.css"> -->
 		<link rel="stylesheet" href="css/style.css">
-		
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Comforter&family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 		
 	</head>
-	<body>
-		<header class="clearfix">
-			<nav>
+	<body> 
+		<header class="header clearfix">
+			<nav class="clearfix">
+				<a class="bbc-logo" href="#"></a><img src="./images/bbc-logo.jpg" alt="">
+				
 				<ul>
-					<li><a href="#">BBC </a></li>
-					<li><a href="#">Sign In</a> </li>
+					<li class="sign-in"><a href="#">Sign In</a> </li>
 					<li><a href="#">Home</a> </li>
 					<li><a href="#">News</a> </li>
 					<li><a href="#">Sport</a> </li>
@@ -32,13 +35,95 @@
 					<li><a href="#">Future</a> </li>
 					<li><a href="#">Culture</a> </li>
 					<li><a href="#">More</a></li>
-					<li><a href="#">Search </a> </li>
+					<li><form class="search">
+						<input type="text" placeholder="Search.." name="search">
+						
+					  </form> </li>
 				</ul>				
 			</nav>
 		</header>
-		<section class="title">
-			<h1>Welcome to BBC.com</h1>
-			<p>Thursday, 13 August</p>
+		 <section class="clear title">
+			<h1 class="welcome">Welcome to BBC.com</h1>
+			<p class="date">Thursday, 13 August</p>
+		</section>
+
+
+		<section class="clear main">
+			<section class="left">
+				<img src="images/deal.jpg" alt="Photo of Bibi and Sheikh">
+				<div class="t2">
+				<h2>Israel and UAE strike historic peace deal</h2>
+				 <p>Israel and UAE agree to normalise relations, marking the third israel arab peace deal</p>
+				<h3 class="category">Middle East</h3>
+			</div>
+			</section>
+			<section class="right">
+				<section class="right-left">
+				<section class="one">
+					<img src="./images/border.jpg" alt="">
+					<div class="t1">
+					<h2>Americans go home, tensions at canadian border</h2>
+					<h3>Canada</h3>
+				</div>
+				</section>
+					<section class="two">
+						<img src="./images/vaccine.jpg" alt="">
+						<div class="t1">
+						<h2>How will the world vaccinate sevel billion people?</h2>
+						<h3>Health</h3>
+					</div>
+					</section>
+				</section>
+			
+				<section class="right-right">
+					<section class="three">
+						<img src="./images/home office.jpg" alt="">
+						<div class="t1">
+						<h2>Online productivity gyms</h2>
+						<h3>Worklife</h3>
+					</div>
+
+				</section>
+					<section class="four" >
+					<img src="./images/artist.jpg" alt="">
+					<div class="t1">
+					<h2>The folk singer murdered for his music</h2>
+					
+					<h3>Culture</h3>
+				</div>
+				</section>
+				</section>
+				</section>
+				
+				
+			</section>
+		
+
+
+		<section class="bottom clear">
+			<h2 class="ns clear">News</h2>
+			<section class="articles">
+				<section class="b-one"> <a href="#">
+					<img src="./images/biden.jpg" alt="">
+					<h2>Biden and harris say Trump has left US in tatters</h2>
+					<p>Joe Biden and running mate Kamala Harris call president Donald Trump a "whining" incompetent leader</p>
+					<h3>US election 2020</h3></a>
+				</section>
+				<section class="b-two"><a href="#">
+					<img src="./images/belarus.jpg" alt="">
+					<h2>Women form solidarity chains in belarus protests</h2>
+					<p>Women take to the streets on minsk dressed in white as they demand end to police brutality</p>
+					<h3>Europe</h3>
+				</a>
+				</section>
+				<section class="b-three"><a href="#">
+					<img src="./images/trump.jpg" alt="">
+					<h2>Trump says low pressure shower heads won't wash</h2>
+					<p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair</p>
+					<h3>US and Canada</h3>
+				</a>
+				</section>
+			</section>
 		</section>
 
 		<script type="text/javascript" src="js/main.js"></script>
