@@ -21,7 +21,9 @@
 /* BASE STYLES
 /*******************************************/
 
-body {
+body {font-family: 'Lato', sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
 
 }
 
@@ -30,7 +32,30 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
+  border-bottom: 1px solid rgb(68, 68, 68);
+  margin: 0px 20px;
+  margin-bottom: 3rem;
+}
 
+li{
+  float: left;
+  font-size: 1rem;
+  font-weight: bold;
+  list-style: none;
+  margin-left: 5%;
+}
+
+a{
+  text-decoration: none;
+  font-style: none;
+  color: #1865f2;;
+}
+
+
+.logo{
+  display: block;
+  padding: 0px 100px;
+ 
 }
 
 footer {
@@ -40,3 +65,67 @@ footer {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.searchBar input {
+  width: 10rem;
+}
+
+
+.left
+{
+  float: left;
+  width: 50%;
+  height: 500px;
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
+
+.main .right{
+  float: left;
+  width: 50%;
+}
+
+.right{
+  padding-left: 2rem;
+  height: 500px;
+}
+
+.right h1{
+  font-size: 4rem;
+}
+.right h2{
+  font-weight: 400;
+  padding-bottom: 2rem;
+}
+
+.right a{  
+
+background-color: #1865f2;
+color: white;
+padding: 0.9rem;
+border-radius: 5%;
+
+}
+
+.nav2{
+ border: 2px solid red;
+}
+
+
+.links{
+  display: block;
+
+}
+
+.why{
+  
+
+ 
+  padding-top: 50px;
+  text-align: center;
+ 
+
+}
