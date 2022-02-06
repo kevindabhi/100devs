@@ -29,14 +29,67 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
+header, .main, .right-side{
+  float: left;
+}
+
+.logo-area img, .logo-area a{
+  display: block;
+}
+
+
+header{position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 15%;
+}
+.logo{
+  
+}
+
+.main{
+  position: relative;
+  float: left;
+  left: 15%;
+   max-width: 30%;
 
 }
 
-footer {
-
+.right-side{
+  position: relative;
+  float: left;
+  left: 25%;
+  max-width: 20%;
+  margin-right: 30%;
 }
 
+.lower
+{
+  position: relative;
+  left: 15%;
+  max-width: 60%;
+ 
+}
+
+.following-left, .following-middle, .following-image
+{
+  float: left;
+  border: solid red 2px;
+  width: 33.3333%;
+}
+
+.following-image img{
+  width: 250px;
+}
+
+
+.main img{
+  border: solid 2px blue;
+  width: 500px;
+}
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+
+
