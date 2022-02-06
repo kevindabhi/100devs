@@ -24,7 +24,12 @@
 body {
 
 }
-
+a{
+  text-decoration: none;
+}
+li{
+  list-style: none;
+}
 
 /******************************************
 /* LAYOUT
@@ -43,9 +48,7 @@ header{position: fixed;
   left: 0px;
   width: 15%;
 }
-.logo{
-  
-}
+
 
 .main{
   position: relative;
@@ -74,11 +77,11 @@ header{position: fixed;
 .following-left, .following-middle, .following-image
 {
   float: left;
-  border: solid red 2px;
   width: 33.3333%;
 }
 
 .following-image img{
+  padding-top: 5px;
   width: 250px;
 }
 
@@ -93,3 +96,50 @@ header{position: fixed;
 
 
 
+.main h1 a, .logo-area a + a{
+  font-weight: bolder;
+  color: black;
+}
+
+.navigation a {
+  font-weight: 400;
+  color: rgb(143, 141, 141);
+}
+
+.navigation li  {
+  padding: 5px 0;
+}
+
+.logo-area a{
+  color: orange;
+  font-weight: 700;
+  margin-left: 40px;
+}
+.logo-area >a{
+  padding-bottom: 10px;
+}
+.logo-area a + a{
+  
+  color: rgb(143, 141, 141);
+}
+
+.right-side h2{
+  font-weight: bolder;
+  font-size: 20px;
+ 
+}
+.right-side a {
+  color: black;
+}
+
+.tcp, .first , .second, .third
+{
+  border-bottom: 1px silver solid;
+ 
+}
+
+
+.first , .second, .third{
+  
+  margin-top: 20px;
+}
