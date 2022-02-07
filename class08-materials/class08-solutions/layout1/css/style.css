@@ -1,6 +1,8 @@
 /* Box Model Hack */
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* Clear fix hack */
@@ -22,32 +24,25 @@
 /*******************************************/
 
 body {
-  max-width: 95%;
+  
   margin: 0 auto;
+ 
 
 }
+
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
-header {
 
-}
-
-footer {
-
-}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
 
 
-section{
-  outline: 2px solid red;
-  
-}
+
 
 .main{
   background-color: #67778a;
@@ -80,4 +75,171 @@ section{
 {
   display: block;
   margin-top: 2rem;
+}
+
+/*section two*/
+
+.two
+{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  text-align: center;
+}
+.two h2, .four h2{
+  font-size: 3rem;
+}
+.two p{
+  margin: 2rem 2rem;
+  
+}
+
+
+
+/*section three*/
+
+.three section{
+  outline: none;
+  
+}
+
+.three{ 
+  background-color: #dbdee3;
+  text-align: center;
+  padding: 2rem;
+}
+
+.left, .right{
+  float: left;
+  width: 50%;
+  padding: 2rem;
+}
+
+.three h2, .three p, .three a, .three img{
+  padding: 1rem 0;
+}
+
+
+/*Section four*/
+
+.four{
+  text-align: center;
+}
+
+.four h2, .four p, .four a{
+  padding: 1rem 0;
+
+
+}
+
+.container-test{
+  margin: 2rem 20rem;
+}
+
+
+/*Footer*/
+.footer, .notice{
+  background-color: #161e2b;
+  color: white;
+  
+}
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+
+.footer li{
+  list-style: none;
+}
+
+.footer-left, .footer-right{
+  float: left;
+  width: 50%;
+}
+
+.footer-right{
+  float: right;
+  
+}
+
+.footer-left span{
+  display: block;
+
+}
+
+.footer{
+  padding: 2% 5%;
+}
+
+.test{
+  margin-left: 70%;
+  justify-content: right;
+}
+
+
+
+.social li{
+  float: left;
+ 
+}
+.social li+li , .social li+li+li{
+  
+  margin-left: 1rem;
+}
+
+.footer-left span{
+  font-weight: bold;
+  color: #495766;
+}
+
+
+.social li, .sitemap{
+  padding-bottom: 1rem;
+  
+}
+
+.address {
+  margin-top: 1rem;
+}
+
+
+
+.notice p{
+  margin:  0.5rem 0;
+  float: left;
+  font-weight: bold;
+}
+
+.notice img{
+  margin:  0.5rem 0;
+  float: right;
+ 
+}
+
+.notice{
+
+  border-top: solid white 3px;
+}
+
+.notice-container{
+  display: block;
+  padding-top: 10rem;
+  background-color: #161e2b;
+  padding: 0 5%;
+}
+
+
+.kinda-button{
+  border: 1px black solid;
+  background-color: #dbdee3;
+}
+
+.three a {
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  color: black;
+  font-weight: bold
+}
+
+.three p{
+  margin-bottom: 1rem;
 }
