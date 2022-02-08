@@ -35,7 +35,9 @@ body {
 /******************************************
 /* LAYOUT
 /*******************************************/
-
+.two, .four{
+  height: 60vh;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
@@ -77,13 +79,48 @@ body {
   margin-top: 2rem;
 }
 
+
+.main img{
+  min-height: 50px;
+  min-width: 50px;
+  
+
+}
+
+header > * {
+  float: left;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  padding-left: 3%;
+  font-weight: bold;
+  padding-top: 2%;
+}
+header img{
+  padding-top: 1%;
+  margin-left: 450px;
+}
+
+.donate
+{
+  float: right;
+  padding-right: 2%;
+}
+.grit{
+  padding-top: 4rem;
+}
+
+
 /*section two*/
 
 .two
 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-  text-align: center;
+  padding: 0 30%;
+  padding-top: 7rem;
+   text-align: center;
+ 
 }
 .two h2, .four h2{
   font-size: 3rem;
@@ -122,6 +159,8 @@ body {
 /*Section four*/
 
 .four{
+ margin: 5% 30%;
+ padding-top: 1%;
   text-align: center;
 }
 
@@ -131,9 +170,7 @@ body {
 
 }
 
-.container-test{
-  margin: 2rem 20rem;
-}
+
 
 
 /*Footer*/
@@ -229,6 +266,7 @@ body {
 
 
 .kinda-button{
+  text-decoration: none;
   border: 1px black solid;
   background-color: #dbdee3;
 }
@@ -242,4 +280,22 @@ body {
 
 .three p{
   margin-bottom: 1rem;
+}
+
+.four p{
+  margin-bottom: 1rem;
+}
+.kinda-button2{
+  text-decoration: none;
+  border: 1px black solid;
+  background-color: white;
+}
+.four a{
+  
+    margin-top: 4rem;
+    padding: 1rem 2rem;
+    color: black;
+    font-weight: bold
+    
+  
 }
