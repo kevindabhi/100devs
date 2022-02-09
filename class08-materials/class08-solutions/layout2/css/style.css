@@ -1,0 +1,104 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+
+/******************************************
+/* MOBILE LAYOUT
+/*******************************************/
+
+@media screen and (max-width: 425px) 
+{
+  body{
+    background-color: #f4f8fc;
+  }
+header {
+  
+  border-bottom: 1px solid silver;
+  
+}
+
+header .nav-big{
+  display: none;
+}
+
+header h1, .hamburger-menu{
+  float: left;
+}
+
+
+header a{
+  display: none;
+  
+}
+
+header h1
+{
+margin-left: 30%;
+
+  
+}
+
+.hamburger-menu{
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+
+img{
+  height: 100vh;
+  width: 100vw;
+}
+
+.main{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.main h2{
+  color: silver;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+
+.main :nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.form
+{
+  border: 2px solid red;
+}
+
+}
