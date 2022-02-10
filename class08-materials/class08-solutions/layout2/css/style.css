@@ -38,11 +38,10 @@ body {
 /* MOBILE LAYOUT
 /*******************************************/
 
-@media screen and (max-width: 425px) 
+@media screen and (max-width: 546px) 
 {
-  body{
-    background-color: #f4f8fc;
-  }
+
+
 header {
   
   border-bottom: 1px solid silver;
@@ -53,6 +52,9 @@ header .nav-big{
   display: none;
 }
 
+.tablet{
+  display: none;
+}
 header h1, .hamburger-menu{
   float: left;
 }
@@ -67,8 +69,12 @@ header h1
 {
 margin-left: 30%;
 
+
   
 }
+.button-right {
+  display: none;
+ }
 
 .hamburger-menu{
   margin-top: 5%;
@@ -77,8 +83,8 @@ margin-left: 30%;
 
 
 img{
-  height: 100vh;
-  width: 100vw;
+  height: 35vh;
+  width: 100;
 }
 
 .main{
@@ -92,13 +98,399 @@ img{
 }
 
 .main :nth-child(2) {
-  font-size: 1rem;
+  font-size: 1  rem;
   font-weight: bold;
 }
 
 .form
 {
-  border: 2px solid red;
+  margin-top: 5%;
+}
+
+.main p{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+ .button{
+  width: 95vw;
+  color: white;
+  background-color: #314759;
+  border: none;
+  height: 2rem;
+  margin-top: 2%;
+  font-weight: bold;
+  margin-bottom: 2%;
+ }
+.input{
+  width: 95vw;
+  height: 2rem;
+  margin-bottom: 2%;
+  border: none;
+  background-color: #e1e8f1;
+}
+
+.main :nth-child(6)
+{ 
+  margin-top: 3%;
+  font-size: 2rem;
+}
+
+
+
+.laptop
+{ display: none;
+ 
+}
+}
+
+
+
+
+
+
+
+
+/* tablet  */
+
+@media screen and (min-width:547px) { 
+
+  .container{
+    background-color: #f4f8fc;
+  }
+header {
+  
+  border-bottom: 1px solid silver;
+  
+}
+
+
+
+header h1, .hamburger-menu{
+  float: left;
+}
+
+
+header a{
+  display: none;
+  
+}
+
+header h1
+{
+  float: left;
+  margin-top: 0;
+  margin-left: 2%;
+  margin-right: 10%;
+  
+
+}
+
+
+
+header ul{
+  float: left;
+
+  margin-left: 1%;
+  margin-top: 0.6rem;
+  width: 65vw;
+  
+}
+
+header li {
+  /* margin-top: 5%;
+  margin-bottom: 7%; */
+  margin-left: 2%;
+  margin-right: 2%;
+  float: left;
+  list-style: none;
+  
+  
+}
+
+.trial{
+  padding-top: 1rem;
+}
+
+.hamburger-menu{
+  display: none;
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+
+img{
+  height: 40vh;
+  width: 100vw;
+}
+
+.main{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.main h2{
+  color: silver;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main :nth-child(2) {
+  font-size: 1  rem;
+  font-weight: bold;
+}
+
+.form
+{
+  margin-top: 5%;
+}
+
+.main p{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+ .button{
+  width: 95vw;
+  color: white;
+  background-color: #314759;
+  border: none;
+  height: 2rem;
+  margin-top: 2%;
+  font-weight: bold;
+  margin-bottom: 2%;
+ }
+.input{
+  width: 95vw;
+  height: 2rem;
+  margin-bottom: 2%;
+  border: none;
+  background-color: #e1e8f1;
+}
+
+.main :nth-child(6)
+{ 
+  margin-top: 3%;
+  font-size: 2rem;
+}
+.tablet{
+  background-color: white;
+  margin-left: 3%;
+  margin-right: 3%;
+  padding-top: 5%;
+}
+.tablet section h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  
+  padding-bottom: 5%;
+
+
+}
+
+.tablet section p{
+  font-size: 1rem;
+  word-spacing: 0.5rem;
+
 }
 
 }
+.button-right {
+ display: none;
+}
+
+.laptop
+{ display: none;
+ 
+}
+
+/* Laptop */
+
+
+
+
+
+@media screen and (min-width:768px) { 
+  
+.laptop{
+  display: block;
+}
+  .trial{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    
+  }
+  header ul {
+    display: inline-block;
+    width: 60vw;
+  
+  }
+  header li {
+  
+    float: left;
+    list-style: none;
+   
+  }
+
+  .button-right {
+    
+    display: block;
+    float: right;
+    margin-top: 0.6rem;
+    margin-right: 2%;
+
+
+      padding-left: 20px;
+      padding-right: 20px;
+      color: white;
+      background-color: #314759;
+      border: none;
+      height: 1.5rem;
+      font-weight: bold;
+  
+
+} 
+
+
+ 
+img{
+ 
+  width: 30vw;
+}
+
+
+
+
+
+
+
+.main{
+  padding-left: 3%;
+  padding-right: 3%;
+}
+.main h2{
+  color: silver;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.main :nth-child(2) {
+  font-size: 1  rem;
+  font-weight: bold;
+}
+
+.form
+{
+  margin-top: 5%;
+}
+
+.main p{
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+ .button{
+ 
+  color: white;
+  background-color: #314759;
+  border: none;
+  height: 2rem;
+  margin-top: 2%;
+  font-weight: bold;
+  margin-bottom: 2%;
+ }
+.input{
+  
+  height: 2rem;
+  margin-bottom: 2%;
+  border: none;
+  background-color: #e1e8f1;
+}
+
+.main :nth-child(6)
+{ 
+  margin-top: 3%;
+  font-size: 2rem;
+}
+
+
+
+
+.left{
+  
+  float: left;
+  width: 50%;
+}
+
+
+ img{
+  float: left;
+  width: 50%;
+  height: 80vh;
+  
+}
+
+.button{width: 50%;
+  float: left;
+
+}
+
+.input{width: 48%;
+  float: left;
+  margin-top: 0.5rem;
+  margin-right: 2%;
+
+}
+.main
+{
+  margin-right: 0;
+}
+
+.device.d2.d3{
+  font-size: 16px;
+  font-weight: lighter;
+}
+.box{
+  padding-left: 5%;
+}
+.box img{
+  display: block
+}
+.box{
+  float: left;
+  width: 22%;
+
+
+}
+
+.box h3 {
+  margin-bottom: 1rem;
+}
+
+
+.box p {
+  margin-bottom: 1rem;
+}
+.box a{
+  
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 2rem ;
+}
+
+.container{
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+
+
+
+.information
+{
+  margin-top: 2rem;
+  background-color: white;
+}
+}
+
+
+
