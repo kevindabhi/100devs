@@ -20,6 +20,6 @@ todos = [{
 
 
 ];
-!
+
 
 console.log(todos[2].text);
