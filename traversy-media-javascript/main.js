@@ -1,10 +1,25 @@
-const string= "I am a software developer";
-let age = 32;
+todos = [{
+    id:1,
+    text : "dentist appointment",
+    isCompleted:false
+
+},
+{
+    id:2,
+    text : "anki",
+    isCompleted:true
+
+},
+
+{
+    id:3,
+    text : "websites",
+    isCompleted:false
+
+}
 
 
-console.log(string.split(""));
+];
+!
 
-var arrayname = [ "value1", "value2", "value3"]
-arrayname.unshift("red");
-
-console.log(arrayname);
+console.log(todos[2].text);
