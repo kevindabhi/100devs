@@ -43,19 +43,48 @@ li{
 /*Section One*/
 
 .one{
-  background-image: url(../img/header-background.JPG);
+  /* background-image: url(../img/header-background.JPG); */
   max-height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 
 }
 
+/*Experimental area*/
 
-.one-box{
-  height: 700px;
-  color: white;
+
+
+.one img { position: relative;
+  border: 2px solid red;
+  clip-path: polygon(1% 1%, 1% 68%, 12% 82%, 31% 89%, 46% 94%, 58% 98%, 73% 99%, 84% 98%, 97% 91%, 99% 75%, 98% 1%);
 
 }
+
+.one-box{
+  position: absolute;
+  height: 700px;
+  color: white;
+  top: 80px;
+  left: 50px;
+
+
+}
+
+
+.writingmode {
+  writing-mode: vertical-rl;
+  position: absolute;
+  top: 200px;
+  left: 1020px;
+  color: white;
+  
+}
+
+
+
+/*Experimental area ends*/
+
+
 
 .one-box a{
   color: white;
