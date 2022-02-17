@@ -1,0 +1,265 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Header*/
+
+body{
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+header{
+  background-color: white;
+}
+
+
+header nav{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5%;
+}
+
+header ul{
+  display: flex;
+  gap: 10%;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+}
+
+
+
+/*Section One*/
+
+.one{
+  background-image: url(../img/header-background.JPG);
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.one-box{
+  height: 700px;
+  color: white;
+
+}
+
+.one-box a{
+  color: white;
+}
+
+.one-box h1{
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.btn{
+  display: block;
+  padding: .8rem;  
+  background-color: black;
+  width: fit-content;
+  margin-bottom: 3rem;
+
+}
+
+#white-btn{
+  display: block;
+  background: white;
+  color: black;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 0.6rem;
+  width: fit-content;
+
+}
+
+
+.box-bottom{
+  display: block;
+  padding: .8rem;  
+  background-color: black;
+  width: fit-content;
+}
+
+.one .one-box .box-bottom span {
+ display: block;
+ margin: 1.5rem auto;
+}
+
+.one-box {
+  padding-top: 15%;
+  margin-left: 15%;
+}
+
+
+
+
+
+
+/*Second Section*/
+
+.two{
+  margin-top: 8rem;
+  display: flex;
+  margin-bottom: 10rem;
+  
+}
+
+.two * {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+/*Third Section*/
+
+.three{
+  display: flex;
+}
+
+.three-left{
+  width: 50%;
+  padding-right: 8%;
+  padding-left:2%;
+}
+.three-right{
+  width: 50%;
+}
+
+.three-right img{
+  height: 17rem;
+}
+
+.three-left h2{
+  font-size: 3.5rem;
+
+}
+
+.three a{
+  display: block;
+  background: black;
+  color: white;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: 0.6rem;
+  width: fit-content;
+}
+
+/*Fourth section*/
+
+.four{
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.stylists{
+  gap: 1rem;
+  justify-content: center;
+  position: relative;
+}
+
+.stylists img {
+  width: 100%;
+}
+
+.nametag {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  max-width: fit-content;
+  padding: 1rem 6rem;
+  gap: 2rem;
+  position: absolute;
+  bottom:  -1rem;
+  left: 1rem;
+  
+  
+}
+
+.five
+{
+
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5rem;
+  padding-bottom: 6rem;
+  padding-top: 5rem;
+
+}
+
+.five h4{
+ 
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+.five p{
+  font-size: 3.5rem;
+  line-height: 1.6;
+}
+
+.five span{
+  font-weight: bolder;
+}
+
+.five .btn{
+  margin-top: 2rem;
+  color: white;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+
+.five-1{
+  
+  margin-top: 5rem;
+}
+
+
+/*Six*/
+
+
+.six h2{
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
+
+}
+.six h2 + h2{
+  margin-top: 0;
+}
+
+.six .photo-layout{
+  display: flex;
+  gap: 2rem;
+
+}
+
+.six .photo-layout img {
+
+  width: 100%;
+}
+
+.layout-left {
+  width: 35%;
+  
+}
+
+.hb{
+  height: 20.5rem;
+}

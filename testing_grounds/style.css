@@ -1,118 +1,273 @@
-
-
-*{
+/* Box Model Hack */
+* {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
+/*Header*/
+
+body{
+  max-width: 1080px;
+  margin: 0 auto;
 }
 
 header{
-  height:100px;
-  border:solid 1px black;
-  clear:both;
-}
-
-section{
-  width:50%  ;
-  height: 567px;
-  border: solid 1px black;
-  float:left;
-
-}
-
-li{
-  list-style: none;
-  float:left;
-  padding:10px
+  background-color: white;
 }
 
 
-
-img{
-  width: 519px;
-  height: 567px;
-  margin-left: 20%;
+header nav{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1.5%;
 }
 
-.text{
-  height: 366px;
-  width: 532px;
-  line-height:10px;
-
-}
-
-h2 span{
-  font-size: 40px;
-}
-#content1::after{
-  content: "\a";
-  white-space: pre;
-}
-#content2::after{
-  content: "\a";
-  white-space: pre;
-}
-
-#mission1{
-  content: "\a";
-  white-space: pre;
-
-}
-p span{
-  font-size: 24px;
-  line-height: 30px;
-}
-
-h2, p>span, #buttons{
- margin-left: 20%;
- margin-top: 100px;
-
-}
-#buttons{
-  line-height:0
-}
-/* header spacing */
-a:link {
-  text-decoration: none;
-  color:black;
-
-}
-
-#left{
-    height:50px;
-    width: 33.33%;
-    border: solid 1px red;
-    float:left;
-}
-
-#middle{
-  height:50px;
-  width: 33.33%;
-  border: solid 1px red;
-  float:left;
-  font-size: 30px;
-  
-}
-#right{
-  height:50px;
-  width: 33.33%;
-  border: solid 1px red;   
-  float:left;
-
+header ul{
+  display: flex;
+  gap: 10%;
 }
 
 a{
-  border: solid 1px black;
-  margin-left: 80px;
+  text-decoration: none;
+  color: black;
 }
 
-p>span{
-  border: solid 1px black;
+li{
+  text-decoration: none;
+  list-style: none;
+}
 
+
+
+/*Section One*/
+
+.one{
+  /* background-image: url(./header-background.JPG); */
+  max-height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.one img { position: relative;
+  border: 2px solid red;
+  clip-path: polygon(1% 1%, 1% 68%, 12% 82%, 31% 89%, 46% 94%, 58% 98%, 73% 99%, 84% 98%, 97% 91%, 99% 75%, 98% 1%);
+
+}
+
+.one-box{
+  position: absolute;
+  height: 700px;
+  color: white;
+  top: 100px;
+
+
+}
+
+.one-box a{
+  color: white;
+}
+
+.one-box h1{
+  text-transform: uppercase;
+  font-size: 4rem;
+  font-weight: 300;
+  margin-bottom: 1.5rem;
+}
+
+.btn{
+  display: block;
+  padding: .8rem;  
+  background-color: black;
+  width: fit-content;
+  margin-bottom: 3rem;
+
+}
+
+#white-btn{
+  display: block;
+  background: white;
+  color: black;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  font-size: 0.6rem;
+  width: fit-content;
+
+}
+
+
+.box-bottom{
+  display: block;
+  padding: .8rem;  
+  background-color: black;
+  width: fit-content;
+}
+
+.one .one-box .box-bottom span {
+ display: block;
+ margin: 1.5rem auto;
+}
+
+.one-box {
+  padding-top: 15%;
+  margin-left: 15%;
+}
+
+
+
+
+
+
+/*Second Section*/
+/* 
+.two{
+  margin-top: 8rem;
+  display: flex;
+  margin-bottom: 10rem;
+  
+}
+
+.two * {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+/*Third Section*/
+
+/* .three{
+  display: flex;
+}
+
+.three-left{
+  width: 50%;
+  padding-right: 8%;
+  padding-left:2%;
+}
+.three-right{
+  width: 50%;
+}
+
+.three-right img{
+  height: 17rem;
+}
+
+.three-left h2{
+  font-size: 3.5rem;
+
+}
+
+.three a{
+  display: block;
+  background: black;
+  color: white;
+  margin-top: 2rem;
+  padding: 0.5rem;
+  font-size: 0.6rem;
+  width: fit-content;
+}
+
+/*Fourth section*/
+
+.four{
+  display: flex;
+  margin-bottom: 5rem;
+}
+
+.stylists{
+  gap: 1rem;
+  justify-content: center;
+  position: relative;
+}
+
+.stylists img {
+  width: 100%;
+}
+
+.nametag {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  max-width: fit-content;
+  padding: 1rem 6rem;
+  gap: 2rem;
+  position: absolute;
+  bottom:  -1rem;
+  left: 1rem;
+  
+  
+}
+
+.five
+{
+
+  background-image: url(../img/banner.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-left: 5rem;
+  padding-bottom: 6rem;
+  padding-top: 5rem;
+
+}
+
+.five h4{
  
+  font-size: 2rem;
+  line-height: 1.6;
 }
 
-#buttons{
-  border: solid 1px black;
-  margin: 0;
+.five p{
+  font-size: 3.5rem;
+  line-height: 1.6;
+}
+
+.five span{
+  font-weight: bolder;
+}
+
+.five .btn{
+  margin-top: 2rem;
+  color: white;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+
+.five-1{
+  
+  margin-top: 5rem;
+}
+
+
+/*Six*/
+
+
+.six h2{
+  margin-top: 3rem;
+  font-size: 4rem;
+  text-align: center;
 
 }
+.six h2 + h2{
+  margin-top: 0;
+}
+
+.six .photo-layout{
+  display: flex;
+  gap: 2rem;
+
+}
+
+.six .photo-layout img {
+
+  width: 100%;
+}
+
+.layout-left {
+  width: 35%;
+  
+}
+
+.hb{
+  height: 20.5rem;
+} */ */
