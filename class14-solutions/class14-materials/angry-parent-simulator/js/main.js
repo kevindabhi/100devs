@@ -6,6 +6,8 @@ function run() {
   const lMidName = document.querySelector('#lastMiddle').value
   const lName = document.querySelector('#lastName').value
 
+
+  //whta this does is seelcts the element and then gets the value from it. 
   // document.querySelector('#placeToYell').innerText = fName + ' ' + fMidName + ' ' + ' ' + lMidName + ' ' + lName
 
   //Add what you should be doing - conditionals go here

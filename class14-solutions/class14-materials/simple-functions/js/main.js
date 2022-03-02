@@ -8,7 +8,7 @@ function addTwoNumbers(num1, num2){
 addTwoNumbers(2,3)
 
 //create a function that multiplys three numbers and console logs the product
-
+// here of course we can use any other name than zebra. it takes the numbers we passed when calling the function and then multiplies it.
 function multiplysThreeNumbers(zebra1,zebra2,zebra3){
     const product = zebra1 * zebra2 * zebra3
     console.log(product)
@@ -22,4 +22,12 @@ function dividesTwoNumbers(n1,n2){
     return n1 / n2
 } 
 
-console.log(dividesTwoNumbers(12,6))
+document.querySelector('#placeToYell').innerText = (dividesTwoNumbers(12,6))
+
+
+
+function moduloTwoNumbers(nu1,nu2){
+    return nu1 % nu2
+    
+} 
+console.log(moduloTwoNumbers(2,5))

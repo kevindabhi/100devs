@@ -1,5 +1,9 @@
 //Write your pseduo code first! 
 
+  /*
+    We want to convert temperature from c to F
+  */
+
 //only on click
 document.querySelector('#yell').addEventListener('click', run)
 
