@@ -1,5 +1,6 @@
 // *Variables*
 // Declare a variable, assign it a value, and alert the value
+let valz
 
 // Create a variable, divide it by 10, and console log the value
 
@@ -14,4 +15,4 @@
 // Create a function that takes in a day of the week. If it is a weekend alert, "weekend" and if not alert "week day". Handle capitilization and if the user does not enter a day of the week alert "Try again!"
 
 //*Loops*
-//Create a function that takes in a number. Console log all values from 1 to that number or greater, but count by 3
+//Create a function that takes in a number. Console sssssss log all values from 1 to that number or greater, but count by 3
