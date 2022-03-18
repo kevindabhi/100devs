@@ -16,3 +16,4 @@ let valz
 
 //*Loops*
 //Create a function that takes in a number. Console sssssss log all values from 1 to that number or greater, but count by 3
+ 
