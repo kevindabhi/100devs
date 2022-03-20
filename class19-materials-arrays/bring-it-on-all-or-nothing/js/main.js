@@ -23,7 +23,7 @@ fourNumbers(1,2,4,7);
 // Create a function that takes in 2 numbers. Console log the first number to the power of the second. Call the function.
 function power(num5, num6) {
     console.log(Math.pow(num5,num6));
-}
+} 
 power(2,4);
 
 
