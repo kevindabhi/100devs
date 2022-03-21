@@ -8,9 +8,11 @@ I want to print # , and then next lopp ## the number of # keep increasing until 
 // function pound ()
 // {
 //     console.log("#");
+
 // }
 
 let abc = "#"
 
-console.log(abc)
+console.log(abc) 
 
+ 
