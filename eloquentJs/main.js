@@ -2,7 +2,7 @@
 
 /*
 Pseudo code
-I want to print # , and then next lopp ## the number of # keep increasing until the loop gets to the counter.
+I want to print # , and then next loop ## the number of # keep increasing until the loop gets to the counter.
 */
 
 // function pound ()
@@ -11,7 +11,7 @@ I want to print # , and then next lopp ## the number of # keep increasing until 
 
 // }
 
-let abc = "#"
+let abc = "#" 
 
 console.log(abc) 
 
