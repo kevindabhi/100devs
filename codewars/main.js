@@ -40,3 +40,20 @@
 // 		return "Odd";
 // 	}
 // }
+
+
+
+// Complete the method that takes a boolean value and return a "Yes" string for true, or a "No" string for false.
+
+function boolToWord( bool){
+   let x = bool;
+   if (bool === true) {
+       console.log("yes")
+   }
+   else{
+       console.log("No")
+   }
+   return
+  }
+
+  boolToWord(true)
