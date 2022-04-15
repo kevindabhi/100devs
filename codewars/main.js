@@ -83,3 +83,5 @@
 // Next we chain the reverse() function, which takes our array of characters and reverses them.
 
 // Finally, we chain join('') to put our characters back together into a string. Notice once again that we left no spaces in the argument for join, this makes sure that the array of characters is joined back together by each character.
+
+
