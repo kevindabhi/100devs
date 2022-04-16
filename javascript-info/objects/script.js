@@ -20,3 +20,4 @@ let bag = {};
 
 // take property name from the fruit variable
 bag[fruit] = 5;
+
