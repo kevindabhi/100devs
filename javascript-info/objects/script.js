@@ -13,7 +13,7 @@
 
 // // access by variable
 // alert( user[key] ); // John (if enter "name")
-//
+//! 
 
 let fruit = prompt("Which fruit to buy?", "apple");
 let bag = {};
