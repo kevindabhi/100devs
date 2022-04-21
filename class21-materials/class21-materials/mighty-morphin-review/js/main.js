@@ -58,5 +58,5 @@ function loopHeadOrTails (x) {
         
    }
 }
-
+ 
 loopHeadOrTails(7)
