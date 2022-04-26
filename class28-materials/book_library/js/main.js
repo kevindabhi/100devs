@@ -12,7 +12,7 @@ function getFetch(){
         console.log(data.title)
         if(!localStorage.getItem("books")) {
           localStorage.setItem("books", data.title)  
-        }
+        } 
         else{
           let books = localStorage.getItem("books") + " ; " + data.title
           localStorage.setItem("books", books)
