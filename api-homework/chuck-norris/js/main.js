@@ -9,6 +9,7 @@ function getFetch(){
   fetch(url)
       .then(res => res.json()) // parse response as JSON
       .then(data => {
+        console.log(data)
         console.log(data.value)
         document.querySelector("h2").innerText = data.value
 

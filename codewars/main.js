@@ -84,4 +84,29 @@
 
 // Finally, we chain join('') to put our characters back together into a string. Notice once again that we left no spaces in the argument for join, this makes sure that the array of characters is joined back together by each character.
 
+//makeNegative
 
+// function makeNegative(num) {
+//     if (num > 0) {
+//     return num * -1;}
+
+//     else {
+//         return num
+//     }
+//   }
+
+// makeNegative(2)
+
+
+//remove first and last characters of a string
+
+// function removeChar(str){
+//     str = str.substring(1);
+//     str = str.slice(0,-1)
+//     return str
+//    };
+
+//    removeChar("hello")
+   
+   
+   
