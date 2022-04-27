@@ -21,7 +21,7 @@ function getFetch(){
         
         document.querySelector("h3").innerText = data.explanation
       })
-      .catch(err => {
+      .catch(err => { 
           console.log(`error ${err}`)
       });
 }

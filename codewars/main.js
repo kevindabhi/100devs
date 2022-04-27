@@ -102,17 +102,17 @@
 
 // function removeChar(str){
 //     str = str.substring(1);
-//     str = str.slice(0,-1)
+//     str = str.slice(0,-1) 
 //     return str
 //    };
-
+ 
 //    removeChar("hello")
    
    
    // two flowers
 
 //    function lovefunc(flower1, flower2){
-//    if ((flower1 + flower2) ===0 )
+//    if ((flower1 + flower2) ===0 ) 
 //  {
 //      return true
 //  }
