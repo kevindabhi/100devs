@@ -95,7 +95,7 @@
 //     }
 //   } 
 
-// makeNegative(2)
+// makeNegative(2) 
 
 
 //remove first and last characters of a string
@@ -135,3 +135,20 @@ For example, for [1, 2, 2] it should return 9 because 1^2 + 2^2 + 2^2 = 9.
 //    }
 
 // squareSum([2,3,4]) 
+
+//
+
+// function litres(time) {
+//    return Math.floor( time*0.5)
+//  }
+
+//  litres(2003)
+
+
+
+
+
+
+
+
+//
