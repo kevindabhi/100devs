@@ -8,7 +8,7 @@ document.querySelector('#bruuuh').addEventListener('click', add10k)
 
 function makeZero() {
   total = 0
-  document.querySelector('#placeToPutResult').innerText = total
+  document.querySelector('#placeToPutResult').innerText = total  
 }
 
 function jumanji() {
