@@ -6,7 +6,7 @@ document.querySelector('#zebra').addEventListener('click', add9)
 document.querySelector('#cantThinkOfAnything').addEventListener('click', sub2)
 document.querySelector('#bruuuh').addEventListener('click', add10k)
 
-function makeZero() {
+function makeZero() {  
   total = 0
   document.querySelector('#placeToPutResult').innerText = total  
 }
