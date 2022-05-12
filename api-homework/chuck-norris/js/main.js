@@ -13,6 +13,7 @@ function getFetch(){
         console.log(data.value)
         document.querySelector("h2").innerText = data.value
 
+        
       })
       .catch(err => {
           console.log(`error ${err}`)
