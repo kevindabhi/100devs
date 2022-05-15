@@ -14,7 +14,7 @@
 //RPG Character Aurora
 
 // const aurora = {
-//     name : "Aurora",
+//     name : "Aurora",  
 //     strength : 100,
 //     health : 100,
 //     armour : 150
