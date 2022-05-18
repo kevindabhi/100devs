@@ -18,6 +18,7 @@ function claireNext(){
 	/*INSERTCODE*/.classList.toggle(/*INSERTCODE*/)
 }
 
+
 function sharleenNext(){
 	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
 	/*INSERTCODE*/.classList.add(/*INSERTCODE*/)
