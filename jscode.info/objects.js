@@ -7,63 +7,93 @@
 // Remove the property name from the object.
 
 
-let user = {};
-user.name = "Kevin";
-user.surname = "Dabhi";
-user.name = "Pete";
-delete user.name;
+// let user = {};
+// user.name = "Kevin";
+// user.surname = "Dabhi";
+// user.name = "Pete";
+// delete user.name;
 
-//second program
+// //second program
 
-let fuxToGive = {};
+// let fuxToGive = {};
 
-alert( isEmpty(fuxToGive)); // true
+// alert( isEmpty(fuxToGive)); // true
 
-fuxToGive["just"] = "last one";
+// fuxToGive["just"] = "last one";
 
-alert( isEmpty(fuxToGive) ); // false
-
-
-//third
+// alert( isEmpty(fuxToGive) ); // false
 
 
-function fuxToGive(obj) {
-    for (let key in obj) {
-      // if the loop has started, there is a property
-      return false;
-    }
-    return true;
-  }
+// //third
 
 
-  //fourth
+// function fuxToGive(obj) {
+//     for (let key in obj) {
+//       // if the loop has started, there is a property
+//       return false;
+//     }
+//     return true;
+//   }
 
-  let salaries = {
-    John: 100,
-    Ann: 160,
-    Pete: 130
-  };
+
+//   //fourth
+
+//   let salaries = {
+//     John: 100,
+//     Ann: 160,
+//     Pete: 130
+//   };
     
-  let sum = 0;
-  for (let key in salaries) {
-    sum += salaries[key];
-  }
+//   let sum = 0;
+//   for (let key in salaries) {
+//     sum += salaries[key];
+//   }
   
-  alert(sum); // 390
+//   alert(sum); // 390
 
 
-  // before the call
-let menu = {
-    width: 200,
-    height: 300,
-    title: "My menu"
-  };
+//   // before the call
+// let menu = {
+//     width: 200,
+//     height: 300,
+//     title: "My menu"
+//   };
   
-  multiplyNumeric(menu);
+//   multiplyNumeric(menu);
   
-  // after the call
-  menu = {
-    width: 400,
-    height: 600,
-    title: "My menu"
-  };
+//   // after the call
+//   menu = {
+//     width: 400,
+//     height: 600,
+//     title: "My menu"
+//   };
+
+
+
+
+ //
+ 
+//  let user = {
+//   name: "Kevin",
+//   age: 32,
+//   isAdmin: true
+// };
+
+// user.sayHi = function() {
+//   console.log("hello");
+// }
+
+
+
+// user = {
+//   sayHi () {
+//     console.log("Hello");  
+//   }
+// };
+
+// function Xyz(name) {
+//   this.name = name;
+//   this.isAdmin = true;
+// }
+
+// let abc = new Xyz("Kevin");
