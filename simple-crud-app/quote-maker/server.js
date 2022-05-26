@@ -1,5 +1,3 @@
-console.log('May Node be with you');
-
 const express = require('express');
 const app = express();
 
@@ -9,5 +7,10 @@ app.listen (3000, function() {
 
 
 app.get('/', (req,res) => {
-    res.send("Hello World")
+    res.sendFile('/home/kevin/Desktop/top/100devs/simple-crud-app/quote-maker/index.html')
 })
+
+app.post('/quotes', (req, res) => {
+    console.log('Hellooooooooooooooooo!')
+  })
+  
