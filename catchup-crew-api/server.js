@@ -37,7 +37,7 @@ app.post('/quotes', (req, res) => {
 
 
     app.listen(3000, function() {
-    console.log('listening on 3000')
+    console.log('server started on 3000')
   })
 
 
