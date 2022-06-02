@@ -22,7 +22,7 @@
 // bag[fruit] = 5;
 
 let user = {
-    name : "Kevin",
+    name : "Kevin Dabhi",
     age : 32,
     isAdmin : true,
 };
