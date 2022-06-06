@@ -602,7 +602,7 @@ let list = {
 };
 The resulting objects form a chain, like this:
 
-A linked list
+A linked list. 
 
 A nice thing about lists is that they can share parts of their structure. For example, if I create two new values {value: 0, rest: list} and {value: -1, rest: list} (with list referring to the binding defined earlier), they are both independent lists, but they share the structure that makes up their last three elements. The original list is also still a valid three-element list.
 
