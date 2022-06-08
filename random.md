@@ -553,7 +553,7 @@ Most values in JavaScript have properties, the exceptions being null and undefin
 
 There are some named properties in arrays, such as length and a number of methods. Methods are functions that live in properties and (usually) act on the value they are a property of.
 
-You can iterate over arrays using a special kind of for loop—for (let element of array).
+You are able to iterate over arrays using a special kind of for loop—for (let element of array).
 
 Exercises
 The sum of a range
