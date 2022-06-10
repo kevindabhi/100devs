@@ -468,16 +468,7 @@ Having too many global bindings “pollutes” the namespace. The more names hav
 
 Many languages will stop you, or at least warn you, when you are defining a binding with a name that is already taken. JavaScript does this for bindings you declared with let or const but—perversely—not for standard bindings nor for bindings declared with var or function.
 
-Back to the Math object. If you need to do trigonometry, Math can help. It contains cos (cosine), sin (sine), and tan (tangent), as well as their inverse functions, acos, asin, and atan, respectively. The number π (pi)—or at least the closest approximation that fits in a JavaScript number—is available as Math.PI. There is an old programming tradition of writing the names of constant values in all caps.
-
-function randomPointOnCircle(radius) {
-  let angle = Math.random() * 2 * Math.PI;
-  return {x: radius * Math.cos(angle),
-          y: radius * Math.sin(angle)};
-}
-console.log(randomPointOnCircle(2));
-// → {x: 0.3667, y: 1.966}
-If sines and cosines are not something you are familiar with, don’t worry. When they are used in this book, in Chapter 14, I’ll explain them.
+Back to the Math object. If you need to do trigonometry, Math can help. It contains cos (cosine), sin (sine), and tan (tangent), as well as their inverse functions, acos, asin, and atan, respectively. The number π (pi)—or at least the close
 
 The previous example used Math.random. This is a function that returns a new pseudorandom number between zero (inclusive) and one (exclusive) every time you call it.
 
