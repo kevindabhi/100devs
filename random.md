@@ -468,17 +468,7 @@ Having too many global bindings “pollutes” the namespace. The more names hav
 
 Many languages will stop you, or at least warn you, when you are defining a binding with a name that is already taken. JavaScript does this for bindings you declared with let or const but—perversely—not for standard bindings nor for bindings declared with var or function.
 
-Back to the Math object. If you need to do trigonometry, Math can help. It contains cos (cosine), sin (sine), and tan (tangent), as well as their inverse functions, acos, asin, and atan, respectively. The number π (pi)—or at least the close
-
-The previous example used Math.random. This is a function that returns a new pseudorandom number between zero (inclusive) and one (exclusive) every time you call it.
-
-console.log(Math.random());
-// → 0.36993729369714856
-console.log(Math.random());
-// → 0.727367032552138
-console.log(Math.random());
-.
-
+Back to t
 If we want a whole random number instead of a fractional one, we can use Math.floor (which rounds down to the nearest whole number) on the result of Math.random.
 
 console.log(Math.floor(Math.random() * 10));
