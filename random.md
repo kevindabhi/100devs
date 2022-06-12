@@ -477,8 +477,7 @@ console.log(Math.random());
 console.log(Math.random());
 // → 0.727367032552138
 console.log(Math.random());
-// → 0.40180766698904335
-Though computers are deterministic machines—they always react the same way if given the same input—it is possible to have them produce numbers that appear random. To do that, the machine keeps some hidden value, and whenever you ask for a new random number, it performs complicated computations on this hidden value to create a new value. It stores a new value and returns some number derived from it. That way, it can produce ever new, hard-to-predict numbers in a way that seems random.
+.
 
 If we want a whole random number instead of a fractional one, we can use Math.floor (which rounds down to the nearest whole number) on the result of Math.random.
 
