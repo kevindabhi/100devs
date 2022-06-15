@@ -466,18 +466,7 @@ The Math object is used as a container to group a bunch of related functionality
 
 Having too many global bindings “pollutes” the namespace. The more names have been taken, the more likely you are to accidentally overwrite the value of some existing binding. For example, it’s not unlikely to want to name something max in one of your programs. Since JavaScript’s built-in max function is tucked safely inside the Math object, we don’t have to worry about overwriting it.
 
-Many languages will stop you, or at least warn you, when you are defining a binding with a name that is already taken. JavaScript does this for bindings you declared with let or const but—perversely—not for standard bindings nor for bindings declared with var or function.
-
-Back to t
-If we want a whole random number instead of a fractional one, we can use Math.floor (which rounds down to the ive values but leaves positive ones as they are.
-
-Destructuring
-Let’s go back to the phi function for a moment.
-
-function phi(table) {
-  return (table[3] * table[0] - table[2] * table[1]) /
-    Math.sqrt((table[2] + table[3]) *
-              (table[0] + table[1]) *
+Many languages will stop you, or at least warn you, when you are defining a binding with a name that is already taken. JavaScript does this for bindings you declared with let or const but—perversely—not for standard bindingse[1]) *
               (table[1] + table[3]) *
               (table[0] + table[2]));
 }
