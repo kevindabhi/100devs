@@ -469,13 +469,7 @@ Having too many global bindings “pollutes” the namespace. The more names hav
 Many languages will stop you, or at least warn you, when you are defining a binding with a name that is already taken. JavaScript does this for bindings you declared with let or const but—perversely—not for standard bindings nor for bindings declared with var or function.
 
 Back to t
-If we want a whole random number instead of a fractional one, we can use Math.floor (which rounds down to the nearest whole number) on the result of Math.random.
-
-console.log(Math.floor(Math.random() * 10));
-// → 2
-Multiplying the random number by 10 gives us a number greater than or equal to 0 and below 10. Since Math.floor rounds down, this expression will produce, with equal chance, any number from 0 through 9.
-
-There are also the functions Math.ceil (for “ceiling”, which rounds up to a whole number), Math.round (to the nearest whole number), and Math.abs, which takes the absolute value of a number, meaning it negates negative values but leaves positive ones as they are.
+If we want a whole random number instead of a fractional one, we can use Math.floor (which rounds down to the ive values but leaves positive ones as they are.
 
 Destructuring
 Let’s go back to the phi function for a moment.
