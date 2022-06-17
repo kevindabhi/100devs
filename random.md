@@ -469,25 +469,7 @@ Having too many global bindings “pollutes” the namespace. The more names hav
 Many languages will stop you, or at least warn you, when you are defining a binding with a name that is already taken. JavaScript does this for bindings you declared with let or const but—perversely—not for standard bindingse[1]) *
               (table[1] + table[3]) *
               (table[0] + table[2]));
-}
-One of the reasons this function is awkward to read is that we have a binding pointing at our array, but we’d much prefer to have bindings for the elements of the array, that is, let n00 = table[0] and so on. Fortunately, there is a succinct way to do this in JavaScript.
-
-function phi([n00, n01, n10, n11]) {
-  return (n11 * n00 - n10 * n01) /
-    Math.sqrt((n10 + n11) * (n00 + n01) *
-              (n01 + n11) * (n00 + n10));
-}
-This also works for bindings created with let, var, or const. If you know the value you are binding is an array, you can use square brackets to “look inside” of the value, binding its contents.
-
-A similar trick works for objects, using braces instead of square brackets.
-
-let {name} = {name: "Faraji", age: 23};
-console.log(name);
-// → Faraji
-Note that if you try to destructure null or undefined, you get an error, much as you would if you directly try to access a property of those values.
-
-JSON
-Because properties only grasp their value, rather than contain it, objects and arrays are stored in the computer’s memory as sequences of bits holding the addresses—the place in memory—of their contents. So an array with another array inside of it consists of (at least) one memory region for the inner array, and another for the outer array, containing (among other things) a binary number that represents the position of the inner array.
+}emory as sequences of bits holding the addresses—the place in memory—of their contents. So an array with another array inside of it consists of (at least) one memory region for the inner array, and another for the outer array, containing (among other things) a binary number that represents the position of the inner array.
 
 If you want to save data in a file for later or send it to another computer over the network, you have to somehow convert these tangles of memory addresses to a description that can be stored or sent. You could send over your entire computer memory along with the address of the value you’re interested in, I suppose, but that doesn’t seem like the best approach.
 
