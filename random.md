@@ -436,18 +436,7 @@ It can be useful for a function to accept any number of arguments. For example, 
 
 To write such a function, you put three dots before the function’s last parameter, like this:
 
-function max(...numbers) {
-  let result = -Infinity;
-  for (let number of numbers) {
-    if (number > result) result = number;
-  }
-  return result;
-}
-console.log(max(4, 1, 9, -2));
-// → 9
-When such a function is called, the rest parameter is bound to an array containing all further arguments. If there are other parameters before it, their values aren’t part of that array. When, as in max, it is the only parameter, it will hold all arguments.
-
-You can use a similar three-dot notation to call a function with an array of arguments.
+fu three-dot notation to call a function with an array of arguments.
 
 let numbers = [5, 1, 7];
 console.log(max(...numbers));
@@ -459,15 +448,7 @@ Square bracket array notation similarly allows the triple-dot operator to spread
 let words = ["never", "fully"];
 console.log(["will", ...words, "understand"]);
 // → ["will", "never", "fully", "understand"]
-The Math object
-As we’ve seen, Math is a grab bag of number-related utility functions, such as Math.max (maximum), Math.min (minimum), and Math.sqrt (square root).
-
-The Math object is used as a container to group a bunch of related functionality. There is only one Math object, and it is almost never useful as a value. Rather, it provides a namespace so that all these functions and values do not have to be global bindings.
-
-Having too many global bindings “pollutes” the namespace. The more names have been taken, the more likely you are to accidentally overwrite the value of some existing binding. For example, it’s not unlikely to want to name something max in one of your programs. Since JavaScript’s built-in max function is tucked safely inside the Math object, we don’t have to worry about overwriting it.
-
-Many langua kind of object) provide ways to group several values into a single value. Conceptually, this allows us to put a bunch of related things in a bag and run around with the bag, instead of wrapping our arms around all of the individual things and trying to hold on to them separately.
-
+The 
 Most values in JavaScript have properties, the exceptions being null and undefined. Properties a
 console.log(range(1, 10));
     value: 2,
