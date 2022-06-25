@@ -436,32 +436,4 @@ It can be useful for a function to accept any number of arguments. For example, 
 
 To write such a function, you put three dots before the function’s last parameter, like this:
 
-fu three-dot notation to call a function with an array of arguments.
-
-let numbers = [5, 1, 7];
-console.log(max(...numbers));
-// → 7
-This “spreads” out the array into the function call, passing its elements as separate arguments. It is possible to include an array like that along with other arguments, as in max(9, ...numbers, 2).
-
-Square bracket array notation similarly allows the triple-dot operator to spread another array into the new array.
-
-let words = ["never", "fully"];
-console.log(["will", ...words, "understand"]);
-// → ["will", "never", "fully", "understand"]
-The 
-Most values in JavaScript have properties, the exceptions being null and undefined. Properties a
-console.log(range(1, 10));
-    value: 2,
-    rest: {
-      value: 3,
-      rest: null
-    }
-  }
-};
-The resulting objects form a chain, like this:
-
-Write a funcobj, {here: 1, object: 2}));
-// → false
-console.log(deepEqual(obj, {here: {is: "an"}, object: 2}));
-// → true
-◀ ◆ ▶
+fu three-dot notation to cal
