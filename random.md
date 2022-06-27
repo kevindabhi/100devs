@@ -429,11 +429,4 @@ We have already seen the string type’s length property. Accessing the individu
 let string = "abc";
 console.log(string.length);
 // → 3
-console.log(string[1]);
-// → b
-Rest parameters
-It can be useful for a function to accept any number of arguments. For example, Math.max computes the maximum of all the arguments it is given.
-
-To write such a function, you put three dots before the function’s last parameter, like this:
-
-fu three-dot notation to cal
+c
