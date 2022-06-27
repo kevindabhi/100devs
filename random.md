@@ -412,21 +412,4 @@ The zeroPad function from the previous chapter also exists as a method. It is ca
 
 console.log(String(6).padStart(3, "0"));
 // → 006
-You can split a string on every occurrence of another string with split and join it again with join.
-
-let sentence = "Secretarybirds specialize in stomping";
-let words = sentence.split(" ");
-console.log(words);
-// → ["Secretarybirds", "specialize", "in", "stomping"]
-console.log(words.join(". "));
-// → Secretarybirds. specialize. in. stomping
-A string can be repeated with the repeat method, which creates a new string containing multiple copies of the original string, glued together.
-
-console.log("LA".repeat(3));
-// → LALALA
-We have already seen the string type’s length property. Accessing the individual characters in a string looks like accessing array elements (with a caveat that we’ll discuss in Chapter 5).
-
-let string = "abc";
-console.log(string.length);
-// → 3
-c
+You can
