@@ -404,12 +404,3 @@ One difference is that a string’s indexOf can search for a string containing m
 
 console.log("one two three".indexOf("ee"));
 // → 11
-The trim method removes whitespace (spaces, newlines, tabs, and similar characters) from the start and end of a string.
-
-console.log("  okay \n ".trim());
-// → okay
-The zeroPad function from the previous chapter also exists as a method. It is called padStart and takes the desired length and padding character as arguments.
-
-console.log(String(6).padStart(3, "0"));
-// → 006
-You can
