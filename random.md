@@ -395,12 +395,3 @@ console.log(kim.age);
 Values of type string, number, and Boolean are not objects, and though the language doesn’t complain if you try to set new properties on them, it doesn’t actually store those properties. As mentioned earlier, such values are immutable and cannot be changed.
 
 But these types do have built-in properties. Every string value has a number of methods. Some very useful ones are slice and indexOf, which resemble the array methods of the same name.
-
-console.log("coconuts".slice(4, 7));
-// → nut
-console.log("coconut".indexOf("u"));
-// → 5
-One difference is that a string’s indexOf can search for a string containing more than one character, whereas the corresponding array method looks only for a single element.
-
-console.log("one two three".indexOf("ee"));
-// → 11
