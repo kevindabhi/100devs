@@ -30,8 +30,10 @@
 // else {
 //     console.log (`${number} is Zero`);
 // }
+//
 
 
+//
 // const number = Number(prompt("Enter a number:"));
 //
 // if (number > 0) {
