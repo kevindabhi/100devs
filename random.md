@@ -391,5 +391,4 @@ We can read properties like length and toUpperCase from string values. But if yo
 let kim = "Kim";
 kim.age = 88;
 console.log(kim.age);
-// → undefined
-Values of type string, number, and Boolean are not objects, and though the language doesn’t complain if you try to set new properties on them, it doesn’t actually store those properties. As mentioned earlier, such values are immutable and cannot be changed.
+// → 
