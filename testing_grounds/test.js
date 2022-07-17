@@ -11,3 +11,5 @@ function Book(title, author, pages, read) {
 const theHobbit = new Book("The Hobbit", "JRR", "99", "absolutely")
 
 console.log(theHobbit.info())
+
+
