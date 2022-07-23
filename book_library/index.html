@@ -13,27 +13,24 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-			
-			<h1 style="color: #af1bf9;"> 
-				NiceSnippets 
-			</h1> 
-		
-			<h3 id="mv">Input Array Elements</h3> 
-			<form class="" action="index.html" method="post"> 
-				<input type="text" name="array[]" value="" /><br> 
-				<input type="text" name="array[]" value="" /><br> 
-				<input type="text" name="array[]" value="" /><br> 
-				<input type="text" name="array[]" value="" /><br> 
-				<input type="text" name="array[]" value="" /><br> 
-				<button type="button" name="button" onclick="ns()"> 
-					Submit 
-				</button> 
-			</form> 
-			<br> 
-		
-			<p id="let"></p> 
-		
+		<form>
+			<div class="form-control">
+				<label for="name">Full Name</label>
+				<input id="name" name="name" type="text" />
+			</div>
+			<div class="form-control">
+				<label for="email">Email Address</label>
+				<input id="email" name="email" type="email" />
+			</div>
+			<div class="form-control">
+				<label for="message">Enter a Message</label>
+				<textarea id="message" name="message" rows="6" cols="65"></textarea>
+			</div>
+			<button class="btn" type="submit">Send</button>
+		</form>
 
+
+		
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
