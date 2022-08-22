@@ -13,29 +13,26 @@
 	<link rel="stylesheet" href="css/normalize.css">
 	<link rel="stylesheet" href="css/style.css">
 </head>
-  
 
 <body>
-	<form>
-		<div class="form-control">
-			<label for="name">Full Name</label>
-			<input id="name" name="name" type="text" />
-		</div>
-		<div class="form-control">
-			<label for="email">Email</label>
-			<input id="email" name="email" type="email" />
-		</div>
-		<div class="form-control">
-			<label for="message">Enter a Message</label>
-			<textarea id="message" name="message" rows="6" cols="65"></textarea>
-		</div>
-		<button class="btn" type="submit">Send</button>
-	</form>
 
 
 
+	<form action="/action_page.php">
+		<label for="fname">Email</label><br>
+		<input type="text" id="email" name="email" value="example@example.com"><br>
+		<input type="submit" value="Submit">
+	  </form> 
 
-	<script type="text/javascript" src="js/main.js"></script>
+<button onclick="store()" type="button">StoreEmail</button>
+
+<script  type="text/javascript">
+  function store(){
+     var inputEmail= document.getElementById("email");
+     localStorage.setItem("email", inputEmail.value);
+    }
+</script>
+<script type="text/javascript" src="js/main.js"></script>
 </body>
 
 </html>
