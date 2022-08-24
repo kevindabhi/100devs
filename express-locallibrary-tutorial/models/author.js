@@ -39,13 +39,17 @@ AuthorSchema
   AuthorSchema
   .virtual('birth_formatted')
 .get(function () {
-  return DateTime.fromJSDate(this.date_of_birth).toLocaleString(DateTime.DATE_MED);
+  let inv = this.date_of_birth; 
+  return ( inv ? DateTime.fromJSDate(this.date_of_birth).toLocaleString(DateTime.DATE_MED) : "");
+
 });
 
 AuthorSchema
 .virtual('death_formatted')
 .get(function () {
-return DateTime.fromJSDate(this.date_of_death).toLocaleString(DateTime.DATE_MED);
+  let inv = this.date_of_death; 
+return ( inv ? DateTime.fromJSDate(this.date_of_death).toLocaleString(DateTime.DATE_MED) : "");
+
 });
 
 //Export model
