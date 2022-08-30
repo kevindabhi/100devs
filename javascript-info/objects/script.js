@@ -45,6 +45,7 @@
 // }
 
 
+
 // let message = (login ==" employee") ? "hello":
 //             (login ==" director") ? "Greetings":
 //             (login == "")? "no login":
