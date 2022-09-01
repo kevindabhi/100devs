@@ -8,7 +8,7 @@ class Character {
       this.xp = 0; // XP is always zero for new characters
     }
     // Return the character description
-    describe() {
+    describe() {sss
       return `${this.name} has ${this.health} health points, ${this
         .strength} as strength and ${this.xp} XP points`;
     }
