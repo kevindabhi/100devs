@@ -16,6 +16,5 @@
 let cc = "JavaScript is fun.";
 // return masked string
 function maskify(cc) {
-  console.log ( ('#'.repeat(Math.max(0, cc.length - 4)) + cc.substr(-4)));
-    
+  console.log ( ('#'.repeat(Math.max(0, cc.length - 4)) + cc.substr(-4)));    
   }
