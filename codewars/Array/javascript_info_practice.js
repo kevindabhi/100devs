@@ -38,4 +38,3 @@ str = "this is a string"
 
 strnew = str.replace("a", "")
 console.log(strnew);
-
