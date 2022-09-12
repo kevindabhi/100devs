@@ -45,8 +45,6 @@ AuthorSchema
 
 });
 
-
-
 AuthorSchema
 .virtual('death_formatted')
 .get(function () {
