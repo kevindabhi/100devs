@@ -53,7 +53,7 @@ function hungry() {
   
   if (fd==0) { 
     // console.log("hungry");
-    document.getElementById("tomodachi_status").innerHTML = "Hungry..and wao wao";
+    document.getElementById("tomodachi_status").innerHTML = "Hungry and annoyed";
 
     fd++;
     
