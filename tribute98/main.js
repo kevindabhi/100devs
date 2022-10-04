@@ -18,7 +18,6 @@
     $( ".draggable" ).draggable();
   } );
 
-
   function calculator() {
     var x = document.getElementById("cal2");
     if (x.style.display === "none") {
