@@ -27,8 +27,6 @@
     }
   }
 
-
-
   document.querySelector("#calculator").addEventListener('click', calculator)
 
 
