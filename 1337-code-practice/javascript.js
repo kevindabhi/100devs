@@ -16,3 +16,11 @@ const result = {
   }
   
   const failuresList = makeList(result.failure);
+
+
+  //Reversing a string
+  function stringReverse(str)
+  {
+    str.split("").reverse().join("")
+    return str
+  }
