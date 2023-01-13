@@ -12,4 +12,4 @@ function longestWord(str)
     console.log(maxLength)
 }
 
-longestWord ("Hello this is a beautiful world.")
+longestWord ("Hello algoritm and leetcode is quite difficult at the moment.")

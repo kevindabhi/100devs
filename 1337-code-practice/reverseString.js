@@ -20,14 +20,23 @@
 
 //method 2.
 
-function reverseString(str) {
-    let newStr = "";
-    for(let i = str.length -1; i>=0; i--)
-    {
+// function reverseString(str) {
+//     let newStr = "";
+//     for(let i = str.length -1; i>=0; i--)
+//     {
       
-        newStr += str[i];
-    }
-    console.log(newStr)
+//         newStr += str[i];
+//     }
+//     console.log(newStr)
+// }
+
+// reverseString("Hey")
+
+//Method 3. Preferred by me.
+function reverseString(str) {
+    str=str.split("").reverse().join("")
+    console.log(str)
 }
 
-reverseString("Hey")
+
+reverseString("Hello")
