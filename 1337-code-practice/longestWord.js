@@ -12,3 +12,5 @@ function longestWord(str)
     console.log(maxLength)
 }
 longestWord ("Hello algoritm and leetcode is quite difficult at the moment.")
+
+//nothing done today but just doing git to keep consistency 
