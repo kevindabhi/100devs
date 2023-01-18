@@ -11,3 +11,7 @@ function longestWord(str) {
 longestWord("Hello algoritm and leetcode is quite difficult at the moment.");
 
 //nothing done today but just doing git to keep consistency
+<<<<<<< HEAD
+=======
+//javscript 30
+>>>>>>> b500d46 (FCC algorithm, leetcode)
