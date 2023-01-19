@@ -22,5 +22,3 @@ function stringReverse(str) {
   str.split("").reverse().join("");
   return str;
 }
-
-//new updates
