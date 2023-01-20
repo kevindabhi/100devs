@@ -1,24 +1,26 @@
-//Next consecutive Day
-const result = {
-  success: ["max-length", "no-amd", "prefer-arrow-functions"],
-  failure: ["no-var", "var-on-top", "linebreak"],
-  skipped: ["no-extra-semi", "no-dup-keys"],
-};
-function makeList(arr) {
-  "use strict";
-  // change code below this line
-  const failureItems = [];
-  for (let i = 0; i < arr.length; i++) {
-    failureItems.push(`<li class="text-warning">${arr[i]}</li>`);
-  }
-  // change code above this line
-  return failureItems;
-}
+// //Next consecutive Day
+// const result = {
+//   success: ["max-length", "no-amd", "prefer-arrow-functions"],
+//   failure: ["no-var", "var-on-top", "linebreak"],
+//   skipped: ["no-extra-semi", "no-dup-keys"],
+// };
+// function makeList(arr) {
+//   "use strict";
+//   // change code below this line
+//   const failureItems = [];
+//   for (let i = 0; i < arr.length; i++) {
+//     failureItems.push(`<li class="text-warning">${arr[i]}</li>`);
+//   }
+//   // change code above this line
+//   return failureItems;
+// }
 
-const failuresList = makeList(result.failure);
+// const failuresList = makeList(result.failure);
 
-//Reversing a string
-function stringReverse(str) {
-  str.split("").reverse().join("");
-  return str;
-}
+// //Reversing a string
+// function stringReverse(str) {
+//   str.split("").reverse().join("");
+//   return str;
+// }
+
+console.log("Hello");
