@@ -7,3 +7,4 @@ function truncateString(str, num) {
 }
 
 truncateString("hey how are you?", 5);
+//what does ... do?
