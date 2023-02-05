@@ -15,4 +15,5 @@
 // }
 let sherlock = { surname: "Holmes", age: 64 };
 let propertyName = prompt("What do you want to know?");
+
 alert(sherlock[propertyName]); // Read property by its name
