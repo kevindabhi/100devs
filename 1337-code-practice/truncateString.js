@@ -7,5 +7,3 @@ function truncateString(str, num) {
 }
 
 truncateString("hey how are you?", 5);
-
-//
