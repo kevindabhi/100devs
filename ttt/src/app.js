@@ -16,3 +16,4 @@ function Board({xIsNext, squares, onPlay}){
     }
   }
 }
+
