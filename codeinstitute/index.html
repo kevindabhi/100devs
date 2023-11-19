@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Tea Recipe</title>
+    <!-- add the font awesome link here -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+        type="text/css" />
+    <link href="index.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div id="container">
+        <header>
+            <h1>How to make Cookies</h1>
+            <img src="https://media.istockphoto.com/id/157511634/photo/homemade-chocolate-chip-cookie-on-white-overhead-xxxl.jpg?s=612x612&w=0&k=20&c=0sdlLuP-vNNQZguX4AWIHSvUYBFWIJfkYoiwpKMM9zA="
+                alt="cookie">
+
+            <p>Bake a batch of these easy cookies with just five ingredients – or fewer. A perfect partner to a cup of
+                tea, you can whip them up in no time</p>
+
+        </header>
+
+        <section onmouseover="ingredientsHover()" onmouseout="ingredientsNormal()">
+            <!-- add a fontawesome icon here -->
+            <h2>ingredients <i id="ingredients" class="fa fa-coffee" aria-hidden="true"></i></h2>
+            <ul>
+                <li>225g butter, softened</li>
+                <li>110g caster sugar</li>
+                <li>275g plain flour</li>
+                <li>1 tsp cinnamon or other spices (optional)</li>
+                <li>75g white or milk chocolate chips (optional)</li>
+            </ul>
+        </section>
+
+        <section onmouseover="preparationHover()" onmouseout="preparationNormal()">
+            <!-- add a fontawesome icon here -->
+            <h2>preparation <i id="preparation" class="fa fa-check-circle" aria-hidden="true"></i></h2>
+            <ol>
+                <li>
+                    Run the tap a little so the water's nicely aerated, and only boil it once to keep the oxygen level
+                    up. Oxygen in water helps flavour!
+                </li>
+                <li>
+                    Cream the butter in a large bowl with a wooden spoon or in a stand mixer until it is soft. Add the
+                    sugar and keep beating <em>until</em> the mixture is light and fluffy. Sift in the flour and add the
+                    optional ingredients, if you're using them.
+                </li>
+                <li>
+                    Bring the mixture together with your hands in a figure-of-eight motion until it forms a dough. You
+                    can freeze the dough at this point.
+                </li>
+                <li>
+                    Roll the dough into walnut-sized balls and place them slightly apart from each other on a baking
+                    sheet (you don't need to butter or line it).
+                </li>
+                <li>
+                    Flatten the balls a little with the palm of your hand and bake them in the oven for around 10-12
+                    mins until they are golden brown and slightly firm on top.
+                </li>
+                <li>
+                    Leave the cookies on a cooling rack for around 15 mins before serving.
+                </li>
+                <li>
+                    Enjoy!
+                </li>
+            </ol>
+        </section>
+
+        <footer>
+            <p>Copyright bbcgoodfood 2020</p>
+        </footer>
+    </div>
+    <script>
+        function ingredientsHover() {
+            document.getElementById("ingredients").style.fontSize = "300%";
+        }
+
+
+        function ingredientsNormal() {
+            document.getElementById("ingredients").style.fontSize = "100%";
+
+        }
+
+
+        function preparationHover() {
+            document.getElementById("preparation").style.fontSize = "300%";
+
+        }
+
+        function preparationNormal() {
+            document.getElementById("preparation").style.fontSize = "100%";
+
+        }
+
+    </script>
+</body>
+
+</html>
