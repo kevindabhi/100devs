@@ -60,6 +60,10 @@ body {
     padding: 1.25rem 5rem;
     background: #e3e6f3;
     box-shadow: 0 0.313rem 0.938rem rgba(0, 0, 0, 0.06);
+    z-index: 999;
+    position: sticky;
+    top: 0;
+    left: 0;
 }
 
 #navbar {
@@ -99,3 +103,93 @@ body {
     left: 1.25rem;
 
 }
+
+
+/*Hero section*/
+
+#hero {
+    background-image: url(../images/hero4.png);
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 100%;
+    background-position: top 25% right 0%;
+    background-size: cover;
+    padding: 0 5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#hero h1 {
+    font-size: 1.25rem;
+    color: #222;
+}
+
+#hero h2 {
+    font-size: 2.875rem;
+    line-height: 3.375rem;
+    color: #222;
+}
+
+#hero h2+h2 {
+    font-size: 3.125rem;
+    line-height: 4rem;
+    color: #088178;
+}
+
+#hero button {
+    margin-top: 1rem;
+    background-image: url(../images/button.png);
+    background-color: transparent;
+    color: #088178;
+    border: 0;
+    padding: 1rem 4rem 1rem 5rem;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+#feature {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+#feature .box {
+    width: 10rem;
+    margin: 1rem 0;
+    border: 1px solid #cce7d0;
+    border-radius: 4px;
+    padding: 1rem;
+    box-shadow: 1.25rem 1.25rem 2.125rem rgba(0, 0, 0, 0.03);
+    text-align: center;
+}
+
+#feature .box h6 {
+    color: #088178;
+    font-weight: 700;
+    padding: 0.5rem;
+    line-height: 1;
+    border-radius: 4px;
+    background-color: #fddde4;
+    text-align: center;
+    display: inline-block;
+
+}
+
+#feature .box:hover {
+    box-shadow: 0.625rem 0.625rem 3.375rem rgba(70, 62, 221, 0.1)
+}
+
+#feature .box img {
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+
+#feature .box:nth-child(2) h6 {
+    color: red;
+}
+
+#feature .box h6:nth-child(3) {}
